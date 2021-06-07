@@ -5,7 +5,7 @@ export default function InputField({ title, component, hint, error }) {
     return (
         <div className={s.inputWrapper}>
             <div className={s.inputBlock}>
-                <span>{title}</span>
+                <span className={s.inputTitleText}>{title}</span>
                 {component}
                 {hint && <span className={s.inputHint}>{hint}</span>}
             </div>
