@@ -1,17 +1,16 @@
 import React from 'react';
 import Header from './components/Header/Header';
-import TestForm from './TestForm';
 import './App.css';
+import UserFormContainer from './components/UserForm/UserFormContainer';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <hr />
+      
       <main>
-        
+        <UserFormContainer />
       </main>
-      <TestForm />
     </div>
   );
 }
