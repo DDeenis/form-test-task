@@ -21,3 +21,16 @@ hr {
     color: #FF0000;
     margin: 4px 0;
 }
+
+.emailSubscribitionWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.emailSubscribitionText {
+    font-family: Arial;
+    font-size: 15px;
+    color: #000000;
+}

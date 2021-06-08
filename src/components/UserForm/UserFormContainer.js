@@ -14,7 +14,7 @@ export default function UserFormContainer() {
 
     return (
         <UserForm
-            defaultCity={biggestCity}
+            defaultCity={biggestCity.city}
             cities={cities}
         />
     );
