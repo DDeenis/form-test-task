@@ -22,7 +22,7 @@ export default function InputField({ title, children, hint, error }) {
 }
 
 InputField.defaultProps = {
-    title: 'Text',
+    title: '',
     hint: '',
     error: ''
 }
